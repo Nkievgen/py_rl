@@ -17,6 +17,7 @@ def main() -> None:
     max_rooms = 30
     
     max_monsters_per_room = 2
+    max_items_per_room = 2
     
     map_width = 80
     map_height = 43
@@ -35,6 +36,7 @@ def main() -> None:
         map_width=map_width,
         map_height=map_height,
         max_monsters_per_room=max_monsters_per_room,
+        max_items_per_room=max_items_per_room,
         engine=engine,
     )
     engine.update_fov()
